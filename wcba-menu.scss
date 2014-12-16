@@ -3,48 +3,68 @@
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
-// .context-course_...	{
-
-.prof {
-	background-image: url("../_img/menu_icons/_default/00-start.png")}
-#grow.m0 {
-	background-image: url("../_img/menu_icons/_default/00-start.png"); 
-	@include grow-style;}
-#grow.m1 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m2 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m3 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m4 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m5 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m6 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m7 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m8 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m9 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m10 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m11 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m12 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-	
-// } end .context-course_...		
+.context-course_{
+	/*F14*/ &219095,
+	/*S15*/ &313003 {
+		#prof {	
+			background-image: url("course-style/ism3004/olson.png");}
+		#grow.m0 {
+			background-image: url("course-style/ism3004/00-start.png"); 
+			@include grow-style;}
+		#grow.m1 {
+			background-image: url("course-style/ism3004/01-introduction.png"); 
+			@include grow-style;}
+		#grow.m2 {
+			background-image: url("course-style/ism3004/02-understanding.png"); 
+			@include grow-style;}
+		#grow.m3 {
+			background-image: url("course-style/ism3004/03-software.png"); 
+			@include grow-style;}
+		#grow.m4 {
+			background-image: url("course-style/ism3004/04-work.png"); 
+			@include grow-style;}
+		#grow.m5 {
+			background-image: url("course-style/ism3004/16-exam.png"); 
+			@include grow-style;}
+		#grow.m6 {
+			background-image: url("course-style/ism3004/05-06-excel.png"); 
+			@include grow-style;}
+		#grow.m7 {
+			background-image: url("course-style/ism3004/05-06-excel.png");
+			@include grow-style;}
+		#grow.m8 {
+			background-image: url("course-style/ism3004/07-08-networks.png");
+			@include grow-style;}
+		#grow.m9 {
+			background-image: url("course-style/ism3004/07-08-networks.png");
+			@include grow-style;}
+		#grow.m10 {
+			background-image: url("course-style/ism3004/09-social.png");
+			@include grow-style;}
+		#grow.m11 {
+			background-image: url("course-style/ism3004/10-data.png");
+			@include grow-style;}
+		#grow.m12 {
+			background-image: url("course-style/ism3004/16-exam.png");
+			@include grow-style;}
+		#grow.m13 {
+			background-image: url("course-style/ism3004/11-12-info.png");
+			@include grow-style;}
+		#grow.m14 {
+			background-image: url("course-style/ism3004/11-12-info.png");
+			@include grow-style;}
+		#grow.m15 {
+			background-image: url("course-style/ism3004/13-tech.png");
+			@include grow-style;}
+		#grow.m16 {
+			background-image: url("course-style/ism3004/14-it.png");
+			@include grow-style;}
+		#grow.m17 {
+			background-image: url("course-style/ism3004/15-conclusion.png");
+			@include grow-style;}
+		#grow.m18 {
+			background-image: url("course-style/ism3004/16-exam.png");
+			@include grow-style;
+		}
+	}	
+} // end .context-course_...		
