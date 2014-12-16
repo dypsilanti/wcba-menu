@@ -3,48 +3,39 @@
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
-// .context-course_...	{
-
-.prof {
-	background-image: url("../_img/menu_icons/_default/00-start.png")}
-#grow.m0 {
-	background-image: url("../_img/menu_icons/_default/00-start.png"); 
-	@include grow-style;}
-#grow.m1 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m2 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m3 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m4 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m5 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m6 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m7 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m8 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m9 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m10 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m11 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m12 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
+.context-course_{
+	/*F14*/ &217960,
+	/*S15*/ &313000 {
 	
-// } end .context-course_...		
+		#prof {	
+			background-image: url("course-style/eco2023/rush.jpg");}
+		#grow.m0 {
+			background-image: url("course-style/eco2023/00-start.png"); 
+			@include grow-style;}
+		#grow.m1 {
+			background-image: url("course-style/eco2023/01-intro.png"); 
+			@include grow-style;}
+		#grow.m2 {
+			background-image: url("course-style/eco2023/02-supply.png"); 
+			@include grow-style;}
+		#grow.m3 {
+			background-image: url("course-style/eco2023/03-behavior.png"); 
+			@include grow-style;}
+		#grow.m4 {
+			background-image: url("course-style/eco2023/04-firm.png"); 
+			@include grow-style;}
+		#grow.m5 {
+			background-image: url("course-style/eco2023/05-market.png"); 
+			@include grow-style;}
+		#grow.m6 {
+			background-image: url("course-style/eco2023/06-dist.png"); 
+			@include grow-style;}
+		
+		#wiki_page_show .nav li.research a {
+			background: #42BD66;
+			color: white;
+			font-weight: 300;
+		}
+		#wiki_page_show .nav li.research a:hover {background: #76B088;}
+	}
+} // end .context-course_...		
