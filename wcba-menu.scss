@@ -3,48 +3,73 @@
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
-// .context-course_...	{
-
-.prof {
-	background-image: url("../_img/menu_icons/_default/00-start.png")}
-#grow.m0 {
-	background-image: url("../_img/menu_icons/_default/00-start.png"); 
-	@include grow-style;}
-#grow.m1 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m2 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m3 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m4 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m5 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m6 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m7 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m8 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m9 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m10 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m11 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m12 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-	
-// } end .context-course_...		
+.context-course_{
+	/*F14*/ &219097 {
+		#prof {	
+			background-image: url("course-style/mar3023/lutz.png");}
+		#grow.m0 {
+			background-image: url("course-style/mar3023/00-start.png"); 
+			@include grow-style;}
+		#grow.m1 {
+			background-image: url("course-style/mar3023/01-pg.png"); 
+			@include grow-style;}
+		#grow.m2 {
+			background-image: url("course-style/mar3023/02-lighthouse.png"); 
+			@include grow-style;}
+		#grow.m3 {
+			background-image: url("course-style/mar3023/03-kommen.png"); 
+			@include grow-style;}
+		#grow.m4 {
+			background-image: url("course-style/mar3023/04-acr.png"); 
+			@include grow-style;}
+		#grow.m5 {
+			background-image: url("course-style/mar3023/05-lightbulb.png"); 
+			@include grow-style;}
+		#grow.m6 {
+			background-image: url("course-style/mar3023/06-target.png"); 
+			@include grow-style;}
+		#grow.m7 {
+			background-image: url("course-style/mar3023/07-sherlock.png");
+			@include grow-style;}
+		#grow.m8 {
+			background-image: url("course-style/mar3023/08-drill.png");
+			@include grow-style;}
+		#grow.m9 {
+			background-image: url("course-style/mar3023/09-googleglass.png");
+			@include grow-style;}
+		#grow.m10 {
+			background-image: url("course-style/mar3023/10-coffee.png");
+			@include grow-style;}
+		#grow.m11 {
+			background-image: url("course-style/mar3023/11-nascar.png");
+			@include grow-style;}
+		#grow.m12 {
+			background-image: url("course-style/mar3023/12-social.png");
+			@include grow-style;}
+		#grow.m13 {
+			background-image: url("course-style/mar3023/13-businesscard.png");
+			@include grow-style;}
+		#grow.m14 {
+			background-image: url("course-style/mar3023/14-shaking.png");
+			@include grow-style;}
+		#grow.m15 {
+			background-image: url("course-style/mar3023/15-walmart.png");
+			@include grow-style;}
+		#grow.m16 {
+			background-image: url("course-style/mar3023/16-money.png");
+			@include grow-style;}
+		#grow.m17 {
+			background-image: url("course-style/mar3023/17-chess.png");
+			@include grow-style;}
+		#grow.m18 {
+			background-image: url("course-style/mar3023/18-scale.png");
+			@include grow-style;}
+		#grow.m19 {
+			background-image: url("course-style/mar3023/19-amazon.png");
+			@include grow-style;}
+		#grow.m20 {
+			background-image: url("course-style/mar3023/20-globe.png");
+			@include grow-style;
+		}
+	}		
+} // end .context-course_...		
