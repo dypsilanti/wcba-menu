@@ -3,48 +3,33 @@
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
-// .context-course_...	{
-
-.prof {
-	background-image: url("../_img/menu_icons/_default/00-start.png")}
-#grow.m0 {
-	background-image: url("../_img/menu_icons/_default/00-start.png"); 
-	@include grow-style;}
-#grow.m1 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m2 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m3 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m4 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m5 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m6 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-#grow.m7 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m8 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m9 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m10 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m11 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
-#grow.m12 {
-	background-image: url("../_img/menu_icons/_default/module.png");
-	@include grow-style;}
+.context-course_{
+	/*FALL*/ 	&219094,
+	/*SPRING*/	&313486 {
 	
-// } end .context-course_...		
+		#prof {	
+			background-image: url("course-style/ent3003/rossi.png");}
+		#grow.m0 {
+			background-image: url("course-style/ent3003/00-start.png"); 
+			@include grow-style;}
+		#grow.m1 {
+			background-image: url("course-style/ent3003/01-apple.png"); 
+			@include grow-style;}
+		#grow.m2 {
+			background-image: url("course-style/ent3003/02-groove.png"); 
+			@include grow-style;}
+		#grow.m3 {
+			background-image: url("course-style/ent3003/03-ns4l.png"); 
+			@include grow-style;}
+		#grow.m4 {
+			background-image: url("course-style/ent3003/12-student.png"); 
+			@include grow-style;}
+		#grow.m5 {
+			background-image: url("course-style/ent3003/05-sbucks.png"); 
+			@include grow-style;}
+		#grow.m6 {
+			background-image: url("course-style/ent3003/06-disney.png"); 
+			@include grow-style;
+		}
+	}
+} // end .context-course_...		
