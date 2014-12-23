@@ -1,5 +1,5 @@
 @mixin grow-style{
-	background-size: 100px 100px;
+	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
@@ -9,25 +9,25 @@
 	
 		#prof {	
 			background-image: url("course-style/ent3003/rossi.png");}
-		#grow.m0 {
+		.m0 {
 			background-image: url("course-style/ent3003/00-start.png"); 
 			@include grow-style;}
-		#grow.m1 {
+		.m1 {
 			background-image: url("course-style/ent3003/01-apple.png"); 
 			@include grow-style;}
-		#grow.m2 {
+		.m2 {
 			background-image: url("course-style/ent3003/02-groove.png"); 
 			@include grow-style;}
-		#grow.m3 {
+		.m3 {
 			background-image: url("course-style/ent3003/03-ns4l.png"); 
 			@include grow-style;}
-		#grow.m4 {
+		.m4 {
 			background-image: url("course-style/ent3003/12-student.png"); 
 			@include grow-style;}
-		#grow.m5 {
+		.m5 {
 			background-image: url("course-style/ent3003/05-sbucks.png"); 
 			@include grow-style;}
-		#grow.m6 {
+		.m6 {
 			background-image: url("course-style/ent3003/06-disney.png"); 
 			@include grow-style;
 		}
