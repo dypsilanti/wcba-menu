@@ -1,5 +1,5 @@
 @mixin grow-style{
-	background-size: 100px 100px;
+	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
@@ -10,70 +10,70 @@
 	/*S15*/ &313334{
 		#prof {	
 			background-image: url("course-style/ism3013/mukherjee.png");}
-		#grow.m0 {
+		.m0 {
 			background-image: url("course-style/ism3013/00-start.png"); 
 			@include grow-style;}
-		#grow.m1 {
+		.m1 {
 			background-image: url("course-style/ism3013/01-intro.png"); 
 			@include grow-style;}
-		#grow.m2 {
+		.m2 {
 			background-image: url("course-style/ism3013/02-noclass.png"); 
 			@include grow-style;}
-		#grow.m3 {
+		.m3 {
 			background-image: url("course-style/ism3013/03-collaboration.png"); 
 			@include grow-style;}
-		#grow.m4 {
+		.m4 {
 			background-image: url("course-style/ism3013/04-strategy.png"); 
 			@include grow-style;}
-		#grow.m5 {
+		.m5 {
 			background-image: url("course-style/ism3013/05-hardware.png"); 
 			@include grow-style;}
-		#grow.m6 {
+		.m6 {
 			background-image: url("course-style/ism3013/06-cloud.png"); 
 			@include grow-style;}
-		#grow.m7 {
+		.m7 {
 			background-image: url("course-style/ism3013/07-test.png");
 			@include grow-style;}
-		#grow.m8 {
+		.m8 {
 			background-image: url("course-style/ism3013/08-flow.png");
 			@include grow-style;}
-		#grow.m9 {
+		.m9 {
 			background-image: url("course-style/ism3013/09-social.png");
 			@include grow-style;}
-		#grow.m10 {
+		.m10 {
 			background-image: url("course-style/ism3013/10-brain.png");
 			@include grow-style;}
-		#grow.m11 {
+		.m11 {
 			background-image: url("course-style/ism3013/11-test.png");
 			@include grow-style;}
-		#grow.m12 {
+		.m12 {
 			background-image: url("course-style/ism3013/12-development.png");
 			@include grow-style;}
-		#grow.m13 {
+		.m13 {
 			background-image: url("course-style/ism3013/13-security.png");
 			@include grow-style;}
-		#grow.m14 {
+		.m14 {
 			background-image: url("course-style/ism3013/14-shopping.png");
 			@include grow-style;}
-		#grow.m15 {
+		.m15 {
 			background-image: url("course-style/ism3013/15-shopping.png");
 			@include grow-style;}
-		#grow.m16 {
+		.m16 {
 			background-image: url("course-style/ism3013/16-test.png");
 			@include grow-style;}
-		#grow.m17 {
+		.m17 {
 			background-image: url("course-style/ism3013/17-prep1.png");
 			@include grow-style;}
-		#grow.m18 {
+		.m18 {
 			background-image: url("course-style/ism3013/18-prep2.png");
 			@include grow-style;}
-		#grow.m19 {
+		.m19 {
 			background-image: url("course-style/ism3013/19-prep3.png");
 			@include grow-style;}
-		#grow.m20 {
+		.m20 {
 			background-image: url("course-style/ism3013/20-excel.png");
 			@include grow-style;}
-		#grow.m21 {
+		.m21 {
 			background-image: url("course-style/ism3013/21-access.png");
 			@include grow-style;
 		}
