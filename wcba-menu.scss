@@ -1,5 +1,5 @@
 @mixin grow-style{
-	background-size: 100px 100px;
+	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: center center;}
 
@@ -17,55 +17,55 @@
 .context-course_{
 	/*F14*/ &295307,
 	/*S15*/ &313272 {
-		#grow.m0 {
+		.m0 {
 			background-image: url("course-style/geb3212/00-start.png"); 
 			@include grow-style;}
-		#grow.m1 {
+		.m1 {
 			background-image: url("course-style/geb3212/01-communication.png"); 
 			@include grow-style;}
-		#grow.m2 {
+		.m2 {
 			background-image: url("course-style/geb3212/02-writing.png"); 
 			@include grow-style;}
-		#grow.m3 {
+		.m3 {
 			background-image: url("course-style/geb3212/03-business.png"); 
 			@include grow-style;}
-		#grow.m4 {
+		.m4 {
 			background-image: url("course-style/geb3212/04-channels.png"); 
 			@include grow-style;}
-		#grow.m5 {
+		.m5 {
 			background-image: url("course-style/geb3212/05-informative.png"); 
 			@include grow-style;}
-		#grow.m6 {
+		.m6 {
 			background-image: url("course-style/geb3212/06-action.png"); 
 			@include grow-style;}
-		#grow.m7 {
+		.m7 {
 			background-image: url("course-style/geb3212/07-document.png");
 			@include grow-style;}
-		#grow.m8 {
+		.m8 {
 			background-image: url("course-style/geb3212/08-exam1.png");
 			@include grow-style;}
-		#grow.m9 {
+		.m9 {
 			background-image: url("course-style/geb3212/09-corporate.png");
 			@include grow-style;}
-		#grow.m10 {
+		.m10 {
 			background-image: url("course-style/geb3212/10-reports.png");
 			@include grow-style;}
-		#grow.m11 {
+		.m11 {
 			background-image: url("course-style/geb3212/11-visuals.png");
 			@include grow-style;}
-		#grow.m12 {
+		.m12 {
 			background-image: url("course-style/geb3212/12-social.png");
 			@include grow-style;}
-		#grow.m13 {
+		.m13 {
 			background-image: url("course-style/geb3212/13-persuasion.png");
 			@include grow-style;}
-		#grow.m14 {
+		.m14 {
 			background-image: url("course-style/geb3212/14-presenting.png");
 			@include grow-style;}
-		#grow.m15 {
+		.m15 {
 			background-image: url("course-style/geb3212/15-intercultural.png");
 			@include grow-style;}
-		#grow.m16 {
+		.m16 {
 			background-image: url("course-style/geb3212/16-exam2.png");
 			@include grow-style;
 		}	
