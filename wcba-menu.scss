@@ -1,10 +1,12 @@
 @mixin grow-style{
-	background-size: 140px;
+	background-size: 150px;
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
 .context-course_{
 	&224394 {
+		.button {margin-bottom: 100px !important;}
+		
 		#prof {	
 			background-image: url("course-style/ent4934/joos.png");}
 		.m0 {
@@ -32,7 +34,7 @@
 			background-image: url("course-style/ent4934/07-changing.png");
 			@include grow-style;}
 		.m8 {
-			background-image: url("course-style/ent4934/08_future.png");
+			background-image: url("course-style/ent4934/08-future.png");
 			@include grow-style;
 		}
 	}		
