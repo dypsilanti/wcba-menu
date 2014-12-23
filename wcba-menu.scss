@@ -1,5 +1,5 @@
 @mixin grow-style{
-	background-size: 100px 100px;
+	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
@@ -9,25 +9,25 @@
 	
 		#prof {	
 			background-image: url("course-style/eco2013/knight.jpg");}
-		#grow.m0 {
+		.m0 {
 			background-image: url("course-style/eco2013/00-start.png"); 
 			@include grow-style;}
-		#grow.m1 {
+		.m1 {
 			background-image: url("course-style/eco2013/01-micro.png"); 
 			@include grow-style;}
-		#grow.m2 {
+		.m2 {
 			background-image: url("course-style/eco2013/02-firm.png"); 
 			@include grow-style;}
-		#grow.m3 {
+		.m3 {
 			background-image: url("course-style/eco2013/03-understanding.png"); 
 			@include grow-style;}
-		#grow.m4 {
+		.m4 {
 			background-image: url("course-style/eco2013/04-identifying.png"); 
 			@include grow-style;}
-		#grow.m5 {
+		.m5 {
 			background-image: url("course-style/eco2013/05-government.png"); 
 			@include grow-style;}
-		#grow.m6 {
+		.m6 {
 			background-image: url("course-style/eco2013/06-international.png"); 
 			@include grow-style;
 		}
