@@ -1,13 +1,13 @@
 @mixin grow-style{
-	background-size: 100px 100px;
+	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
 .context-course_{
 	/*WCBA*/ &280374, &255694,
 	/*IMBA*/ &280388, &313314 {
-		.prof, #prof {	
-		background-image: url("course-style/net1000/century.png")}
+		.prof {	
+			background-image: url("course-style/net1000/century.png")}
 		.m1 {
 			background-image: url("course-style/net1000/01-laptop.png"); 
 			@include grow-style;}
