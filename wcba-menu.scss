@@ -6,8 +6,7 @@
 .context-course_{
 	/*F14*/ &217960,
 	/*S15*/ &313000 {
-	
-		#prof {	
+		.prof {	
 			background-image: url("course-style/eco2023/rush.jpg");}
 		.m0 {
 			background-image: url("course-style/eco2023/00-start.png"); 
@@ -30,12 +29,10 @@
 		.m6 {
 			background-image: url("course-style/eco2023/06-dist.png"); 
 			@include grow-style;}
-		
 		#wiki_page_show .nav li.research a {
 			background: #42BD66;
 			color: white;
-			font-weight: 300;
-		}
+			font-weight: 300;}
 		#wiki_page_show .nav li.research a:hover {background: #76B088;}
 	}
 } // end .context-course_...		
