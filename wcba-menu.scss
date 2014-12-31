@@ -5,8 +5,15 @@
 	
 .context-course_{
 	&218284 {
-		.title {
-			padding-left: 0;
+		#wiki_page_show {
+			
+			.title {
+				padding-left: 0;
+			}
+			
+			.head {
+				min-height: 0;
+			}
 		}	
 		.prof {
 			background: none;
