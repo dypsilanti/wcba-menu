@@ -5,12 +5,8 @@
 	
 .context-course_{
 	&218284 {
-		#wiki_page_show .head {
-			min-height: inherit;
-			h2 .course, h4 .name {
-				padding-left: 0;
-				margin-left: 0;
-			}
+		.title {
+			padding-left: 0;
 		}	
 		.prof {
 			background: none;
