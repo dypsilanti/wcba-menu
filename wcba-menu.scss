@@ -7,7 +7,7 @@
 	&218284 {
 		#wiki_page_show .head {
 			min-height: inherit;
-			#course_name, #course_sub {
+			h2.course, h4.name {
 				padding-left: 0;
 				margin-left: 0;
 			}
@@ -22,19 +22,19 @@
 			top: 0px; 
 			left: 0px;
 		} 
-		#grow.m0 {
+		.m0 {
 			background-image: url("course-style/aacsb/00-start.png");
 			@include grow-style;}
-		#grow.m1 {
+		.m1 {
 			background-image: url("course-style/aacsb/01-online.png"); 
 			@include grow-style;}
-		#grow.m2 {
+		.m2 {
 			background-image: url("course-style/aacsb/02-map.png"); 
 			@include grow-style;}
-		#grow.m3 {
+		.m3 {
 			background-image: url("course-style/aacsb/03-puzzle.png"); 
 			@include grow-style;}
-		#grow.m4 {
+		.m4 {
 			background-image: url("course-style/aacsb/04-gears.png"); 
 			@include grow-style;
 		}
