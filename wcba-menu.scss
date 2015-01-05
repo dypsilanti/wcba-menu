@@ -5,18 +5,18 @@
 	
 .context-course_{
 	.canvas {
-		background-image: url("course-style/_default/00-start.png"); 
+		background-image: url("course-style/student-guide/00-start.png"); 
 		@include grow-style;}
 	.mediasite {
-		background-image: url("course-style/_default/module.png"); 
+		background-image: url("course-style/student-guide/module.png"); 
 		@include grow-style;}
 	.exams {
-		background-image: url("course-style/_default/module.png"); 
+		background-image: url("course-style/student-guide/module.png"); 
 		@include grow-style;}
 	.browser {
-		background-image: url("course-style/_default/module.png"); 
+		background-image: url("course-style/student-guide/module.png"); 
 		@include grow-style;}
 	.handbook {
-		background-image: url("course-style/_default/module.png"); 
+		background-image: url("course-style/student-guide/module.png"); 
 		@include grow-style;}
 } //end .context-course_...		
