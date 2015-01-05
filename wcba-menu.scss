@@ -3,48 +3,46 @@
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
-// .context-course_...	{
-
-.prof {
-	background-image: url("course-style/_default/prof.png")}
-.m0 {
-	background-image: url("course-style/_default/00-start.png"); 
-	@include grow-style;}
-.m1 {
-	background-image: url("course-style/_default/module.png"); 
-	@include grow-style;}
-.m2 {
-	background-image: url("course-style/_default/module.png"); 
-	@include grow-style;}
-.m3 {
-	background-image: url("course-style/_default/module.png"); 
-	@include grow-style;}
-.m4 {
-	background-image: url("course-style/_default/module.png"); 
-	@include grow-style;}
-.m5 {
-	background-image: url("course-style/_default/module.png"); 
-	@include grow-style;}
-.m6 {
-	background-image: url("course-style/_default/module.png"); 
-	@include grow-style;}
-.m7 {
-	background-image: url("course-style/_default/module.png");
-	@include grow-style;}
-.m8 {
-	background-image: url("course-style/_default/module.png");
-	@include grow-style;}
-.m9 {
-	background-image: url("course-style/_default/module.png");
-	@include grow-style;}
-.m10 {
-	background-image: url("course-style/_default/module.png");
-	@include grow-style;}
-.m11 {
-	background-image: url("course-style/_default/module.png");
-	@include grow-style;}
-.m12 {
-	background-image: url("course-style/_default/module.png");
-	@include grow-style;}
-	
-// } end .context-course_...		
+.context-course_{
+	.prof {
+		background-image: url("course-style/_default/prof.png")}
+	.m0 {
+		background-image: url("course-style/_default/00-start.png"); 
+		@include grow-style;}
+	.m1 {
+		background-image: url("course-style/_default/module.png"); 
+		@include grow-style;}
+	.m2 {
+		background-image: url("course-style/_default/module.png"); 
+		@include grow-style;}
+	.m3 {
+		background-image: url("course-style/_default/module.png"); 
+		@include grow-style;}
+	.m4 {
+		background-image: url("course-style/_default/module.png"); 
+		@include grow-style;}
+	.m5 {
+		background-image: url("course-style/_default/module.png"); 
+		@include grow-style;}
+	.m6 {
+		background-image: url("course-style/_default/module.png"); 
+		@include grow-style;}
+	.m7 {
+		background-image: url("course-style/_default/module.png");
+		@include grow-style;}
+	.m8 {
+		background-image: url("course-style/_default/module.png");
+		@include grow-style;}
+	.m9 {
+		background-image: url("course-style/_default/module.png");
+		@include grow-style;}
+	.m10 {
+		background-image: url("course-style/_default/module.png");
+		@include grow-style;}
+	.m11 {
+		background-image: url("course-style/_default/module.png");
+		@include grow-style;}
+	.m12 {
+		background-image: url("course-style/_default/module.png");
+		@include grow-style;}
+} //end .context-course_...		
