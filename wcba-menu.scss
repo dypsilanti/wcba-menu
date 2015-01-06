@@ -1,20 +1,10 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	&218284 {
 		#wiki_page_show {
+			.title {padding-left: 0;}
+			.head {min-height: 0;}
+		}
 			
-			.title {
-				padding-left: 0;
-			}
-			
-			.head {
-				min-height: 0;
-			}
-		}	
 		.prof {
 			background: none;
 			width: 0px;
@@ -25,21 +15,11 @@
 			top: 0px; 
 			left: 0px;
 		} 
-		.m0 {
-			background-image: url("course-style/aacsb/00-start.png");
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/aacsb/01-online.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/aacsb/02-map.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/aacsb/03-puzzle.png"); 
-			@include grow-style;}
-		.m4 {
-			background-image: url("course-style/aacsb/04-gears.png"); 
-			@include grow-style;
-		}
+		
+		.m0 	{background-image: url("course-style/aacsb/00-start.png");}
+		.m1 	{background-image: url("course-style/aacsb/01-online.png");}
+		.m2 	{background-image: url("course-style/aacsb/02-map.png"); }
+		.m3 	{background-image: url("course-style/aacsb/03-puzzle.png"); }
+		.m4 	{background-image: url("course-style/aacsb/04-gears.png");}
 	}
 } // end .context-course_...		
