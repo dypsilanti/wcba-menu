@@ -1,61 +1,22 @@
-@mixin grow-style{
-	background-size: 100px; 
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	/*S14*/ &219090,
 	/*F15*/ &312997 {	
-		.prof {	
-			background-image: url("course-style/acg2071/garvin.png");}
-		.m0 {
-			background-image: url("course-style/acg2071/00-start.png"); 
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/acg2071/1-planning.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/acg2071/2-costs.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/acg2071/3-cog.png"); 
-			@include grow-style;}
-		.m4 {
-			background-image: url("course-style/acg2071/4-jit.png"); 
-			@include grow-style;}
-		.m4b {
-			background-image: url("course-style/acg2071/4b-m1review.png"); 
-			@include grow-style;}
-		.m5 {
-			background-image: url("course-style/acg2071/5-units.png"); 
-			@include grow-style;}
-		.m6 {
-			background-image: url("course-style/acg2071/6-mixed.png");
-			@include grow-style;}
-		.m7 {
-			background-image: url("course-style/acg2071/7-break.png");
-			@include grow-style;}
-		.m8 {
-			background-image: url("course-style/acg2071/8-product.png");
-			@include grow-style;}
-		.m8b {
-			background-image: url("course-style/acg2071/8b-m2review.png");
-			@include grow-style;}
-		.m9 {
-			background-image: url("course-style/acg2071/9-budget.png");
-			@include grow-style;}
-		.m10 {
-			background-image: url("course-style/acg2071/10-decent.png");
-			@include grow-style;}
-		.m11 {
-			background-image: url("course-style/acg2071/11-variances.png");
-			@include grow-style;}
-		.m12 {
-			background-image: url("course-style/acg2071/12-rate.png");
-			@include grow-style;}
-		.m12b {
-			background-image: url("course-style/acg2071/12b-m3review.png");
-			@include grow-style;
-		}
+		.prof 	{ background-image: url("course-style/acg2071/garvin.png"); }
+		.m0 	{ background-image: url("course-style/acg2071/00-start.png"); }
+		.m1 	{ background-image: url("course-style/acg2071/1-planning.png"); }
+		.m2 	{ background-image: url("course-style/acg2071/2-costs.png"); }
+		.m3 	{ background-image: url("course-style/acg2071/3-cog.png"); }
+		.m4 	{ background-image: url("course-style/acg2071/4-jit.png"); }
+		.m4b 	{ background-image: url("course-style/acg2071/4b-m1review.png"); }
+		.m5 	{ background-image: url("course-style/acg2071/5-units.png"); }
+		.m6 	{ background-image: url("course-style/acg2071/6-mixed.png"); }
+		.m7 	{ background-image: url("course-style/acg2071/7-break.png"); }
+		.m8 	{ background-image: url("course-style/acg2071/8-product.png"); }
+		.m8b 	{ background-image: url("course-style/acg2071/8b-m2review.png"); }
+		.m9 	{ background-image: url("course-style/acg2071/9-budget.png"); }
+		.m10 	{ background-image: url("course-style/acg2071/10-decent.png"); }
+		.m11 	{ background-image: url("course-style/acg2071/11-variances.png"); }
+		.m12 	{ background-image: url("course-style/acg2071/12-rate.png"); }
+		.m12b 	{ background-image: url("course-style/acg2071/12b-m3review.png"); }
 	}
 } //end .context-course_...		
