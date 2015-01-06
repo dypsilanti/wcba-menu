@@ -1,69 +1,25 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	/*F14*/ &219098,
 	/*S15*/ &313005 {
-		.prof {	
-			background-image: url("course-style/qmb3250/thompson.png");}
-		.m0 {
-			background-image: url("course-style/qmb3250/00-start.png"); 
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/qmb3250/m01.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/qmb3250/m02.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/qmb3250/m03.png"); 
-			@include grow-style;}
-		.m4 {
-			background-image: url("course-style/qmb3250/m04.png"); 
-			@include grow-style;}
-		.m5 {
-			background-image: url("course-style/qmb3250/m05.png"); 
-			@include grow-style;}
-		.m6 {
-			background-image: url("course-style/qmb3250/m06.png"); 
-			@include grow-style;}
-		.m7 {
-			background-image: url("course-style/qmb3250/m07.png");
-			@include grow-style;}
-		.m8 {
-			background-image: url("course-style/qmb3250/m08.png");
-			@include grow-style;}
-		.m9 {
-			background-image: url("course-style/qmb3250/m09.png");
-			@include grow-style;}
-		.m10 {
-			background-image: url("course-style/qmb3250/m10.png");
-			@include grow-style;}
-		.m11 {
-			background-image: url("course-style/qmb3250/m11.png");
-			@include grow-style;}
-		.m12 {
-			background-image: url("course-style/qmb3250/m12.png");
-			@include grow-style;}
-		.m13 {
-			background-image: url("course-style/qmb3250/m13.png");
-			@include grow-style;}
-		.m14 {
-			background-image: url("course-style/qmb3250/m14.png");
-			@include grow-style;}
-		.m15 {
-			background-image: url("course-style/qmb3250/m15.png");
-			@include grow-style;}
-		.m16 {
-			background-image: url("course-style/qmb3250/m16.png");
-			@include grow-style;}
-		.m17 {
-			background-image: url("course-style/qmb3250/m17.png");
-			@include grow-style;}
-		.m18 {
-			background-image: url("course-style/qmb3250/m18.png");
-			@include grow-style;}
+		.prof 	{background-image: url("course-style/qmb3250/thompson.png");}
+		.m0 	{background-image: url("course-style/qmb3250/00-start.png");}
+		.m1 	{background-image: url("course-style/qmb3250/m01.png");}
+		.m2 	{background-image: url("course-style/qmb3250/m02.png");}
+		.m3 	{background-image: url("course-style/qmb3250/m03.png");}
+		.m4 	{background-image: url("course-style/qmb3250/m04.png");}
+		.m5 	{background-image: url("course-style/qmb3250/m05.png");}
+		.m6 	{background-image: url("course-style/qmb3250/m06.png");}
+		.m7 	{background-image: url("course-style/qmb3250/m07.png");}
+		.m8 	{background-image: url("course-style/qmb3250/m08.png");}
+		.m9 	{background-image: url("course-style/qmb3250/m09.png");}
+		.m10 	{background-image: url("course-style/qmb3250/m10.png");}
+		.m11 	{background-image: url("course-style/qmb3250/m11.png");}
+		.m12 	{background-image: url("course-style/qmb3250/m12.png");}
+		.m13 	{background-image: url("course-style/qmb3250/m13.png");}
+		.m14 	{background-image: url("course-style/qmb3250/m14.png");}
+		.m15 	{background-image: url("course-style/qmb3250/m15.png");}
+		.m16 	{background-image: url("course-style/qmb3250/m16.png");}
+		.m17 	{background-image: url("course-style/qmb3250/m17.png");}
+		.m18 	{background-image: url("course-style/qmb3250/m18.png");}
 	}				
 }// end .context-course_...		
