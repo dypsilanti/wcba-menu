@@ -1,55 +1,36 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	/*F14*/ &257066,
 	/*S15*/ &313004 {	
 		.prof {	
 			background-image: url("course-style/man4504/munson.png");}
 		.m0 {
-			background-image: url("course-style/man4504/00-start.png"); 
-			@include grow-style;}
+			background-image: url("course-style/man4504/00-start.png"); }
 		.m1 {
-			background-image: url("course-style/man4504/01-productivity.png"); 
-			@include grow-style;}
+			background-image: url("course-style/man4504/01-productivity.png"); }
 		.m2 {
-			background-image: url("course-style/man4504/02-forecasting.png"); 
-			@include grow-style;}
+			background-image: url("course-style/man4504/02-forecasting.png"); }
 		.m3 {
-			background-image: url("course-style/man4504/03-decisionmaking.png"); 
-			@include grow-style;}
+			background-image: url("course-style/man4504/03-decisionmaking.png"); }
 		.m4 {
-			background-image: url("course-style/man4504/04-linear.png"); 
-			@include grow-style;}
+			background-image: url("course-style/man4504/04-linear.png"); }
 		.m5 {
-			background-image: url("course-style/man4504/05-process.png"); 
-			@include grow-style;}
+			background-image: url("course-style/man4504/05-process.png"); }
 		.m6 {
-			background-image: url("course-style/man4504/06-capacity.png"); 
-			@include grow-style;}
+			background-image: url("course-style/man4504/06-capacity.png"); }
 		.m7 {
-			background-image: url("course-style/man4504/07-quality.png");
-			@include grow-style;}
+			background-image: url("course-style/man4504/07-quality.png");}
 		.m8 {
-			background-image: url("course-style/man4504/08-stat.png");
-			@include grow-style;}
+			background-image: url("course-style/man4504/08-stat.png");}
 		.m9 {
-			background-image: url("course-style/man4504/09-queuing.png");
-			@include grow-style;}
+			background-image: url("course-style/man4504/09-queuing.png");}
 		.m10 {
-			background-image: url("course-style/man4504/10-inventory.png");
-			@include grow-style;}
+			background-image: url("course-style/man4504/10-inventory.png");}
 		.m11 {
-			background-image: url("course-style/man4504/11-agg.png");
-			@include grow-style;}
+			background-image: url("course-style/man4504/11-agg.png");}
 		.m12 {
-			background-image: url("course-style/man4504/12-revenuemgmt.png");
-			@include grow-style;}
+			background-image: url("course-style/man4504/12-revenuemgmt.png");}
 		.m13 {
 			background-image: url("course-style/man4504/13-projectmgmt.png");
-			@include grow-style;
 		}	
 	}
 } // end .context-course_...		
