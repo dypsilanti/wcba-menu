@@ -1,62 +1,40 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	/*F14*/ &224397 {
 		.prof {
 			background-image: url("course-style/ree3043/malone.png")}
 		.m0 {
-			background-image: url("course-style/ree3043/00-start.png"); 
-			@include grow-style;}
+			background-image: url("course-style/ree3043/00-start.png");}
 		.m1 {
-			background-image: url("course-style/ree3043/01-nature.png"); 
-			@include grow-style;}
+			background-image: url("course-style/ree3043/01-nature.png");}
 		.m2 {
-			background-image: url("course-style/ree3043/02-legal.png"); 
-			@include grow-style;}
+			background-image: url("course-style/ree3043/02-legal.png");}
 		.m3 {
-			background-image: url("course-style/ree3043/03-real.png"); 
-			@include grow-style;}
+			background-image: url("course-style/ree3043/03-real.png");}
 		.m4 {
-			background-image: url("course-style/ree3043/04-gov.png"); 
-			@include grow-style;}
+			background-image: url("course-style/ree3043/04-gov.png");}
 		.m5 {
-			background-image: url("course-style/ree3043/05-market.png"); 
-			@include grow-style;}
+			background-image: url("course-style/ree3043/05-market.png");}
 		.m7 {
-			background-image: url("course-style/ree3043/07-valuation.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/07-valuation.png");}
 		.m8 {
-			background-image: url("course-style/ree3043/08-other.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/08-other.png");}
 		.m9 {
-			background-image: url("course-style/ree3043/09-laws.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/09-laws.png");}
 		.m10 {
-			background-image: url("course-style/ree3043/10-residential.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/10-residential.png");}
 		.m11 {
-			background-image: url("course-style/ree3043/11-sources.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/11-sources.png");}
 		.m12 {
-			background-image: url("course-style/ree3043/12-realestate.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/12-realestate.png");}
 		.m13 {
-			background-image: url("course-style/ree3043/13-contracts.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/13-contracts.png");}
 		.m14 {
-			background-image: url("course-style/ree3043/14-effects.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/14-effects.png");}
 		.m15 {
-			background-image: url("course-style/ree3043/15-calculations.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/15-calculations.png");}
 		.m21 {
-			background-image: url("course-style/ree3043/21-enhancing.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/21-enhancing.png");}
 		.exam {
-			background-image: url("course-style/ree3043/exam.png");
-			@include grow-style;}
+			background-image: url("course-style/ree3043/exam.png");}
 	}
 } // end .context-course_...		
