@@ -1,25 +1,40 @@
+@mixin grow-style{
+	background-size: 150px;
+	background-repeat: no-repeat;
+	background-position: center center;}
+	
 .context-course_{
 	&224394 {
 		.button {margin-bottom: 100px !important;}
 		.prof {	
 			background-image: url("course-style/ent4934/joos.png");}
 		.m0 {
-			background-image: url("course-style/ent4934/00-start.png");}
+			background-image: url("course-style/ent4934/00-start.png"); 
+			@include grow-style;}
 		.m1 {
-			background-image: url("course-style/ent4934/01-intro.png");}
+			background-image: url("course-style/ent4934/01-intro.png"); 
+			@include grow-style;}
 		.m2 {
-			background-image: url("course-style/ent4934/02-innovation.png");}
+			background-image: url("course-style/ent4934/02-innovation.png"); 
+			@include grow-style;}
 		.m3 {
-			background-image: url("course-style/ent4934/03-structures.png");}
+			background-image: url("course-style/ent4934/03-structures.png"); 
+			@include grow-style;}
 		.m4 {
-			background-image: url("course-style/ent4934/04-responsible.png");}
+			background-image: url("course-style/ent4934/04-responsible.png"); 
+			@include grow-style;}
 		.m5 {
-			background-image: url("course-style/ent4934/05-measuring.png");}
+			background-image: url("course-style/ent4934/05-measuring.png"); 
+			@include grow-style;}
 		.m6 {
-			background-image: url("course-style/ent4934/06-diverse.png");}
+			background-image: url("course-style/ent4934/06-diverse.png"); 
+			@include grow-style;}
 		.m7 {
-			background-image: url("course-style/ent4934/07-changing.png");}
+			background-image: url("course-style/ent4934/07-changing.png");
+			@include grow-style;}
 		.m8 {
-			background-image: url("course-style/ent4934/08-future.png");}
+			background-image: url("course-style/ent4934/08-future.png");
+			@include grow-style;
+		}
 	}		
 } // end .context-course_...		
