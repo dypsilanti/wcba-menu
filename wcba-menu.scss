@@ -1,59 +1,21 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	&219096 {
-		.prof {	
-			background-image: url("course-style/man3025/archambeau.png");}
-		.m0 {
-			background-image: url("course-style/man3025/00-start.png"); 
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/man3025/01-manager.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/man3025/02-theory.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/man3025/03-global.png"); 
-			@include grow-style;}
-		.m4 {
-			background-image: url("course-style/man3025/04-foundation.png"); 
-			@include grow-style;}
-		.m5 {
-			background-image: url("course-style/man3025/05-strategic.png"); 
-			@include grow-style;}
-		.m6 {
-			background-image: url("course-style/man3025/06-decision.png"); 
-			@include grow-style;}
-		.m7 {
-			background-image: url("course-style/man3025/07-culture.png");
-			@include grow-style;}
-		.m8 {
-			background-image: url("course-style/man3025/08-change.png");
-			@include grow-style;}
-		.m9 {
-			background-image: url("course-style/man3025/09-managing.png");
-			@include grow-style;}
-		.m10 {
-			background-image: url("course-style/man3025/10-motivating.png");
-			@include grow-style;}
-		.m11 {
-			background-image: url("course-style/man3025/11-groups.png");
-			@include grow-style;}
-		.m12 {
-			background-image: url("course-style/man3025/12-leadership.png");
-			@include grow-style;}
-		.m13 {
-			background-image: url("course-style/man3025/13-interpersonal.png");
-			@include grow-style;}
-		.m14 {
-			background-image: url("course-style/man3025/14-control.png");
-			@include grow-style;}
-		.m15 {
-			background-image: url("course-style/man3025/15-special.png");
-			@include grow-style;}
+		.prof 	{background-image: url("course-style/man3025/archambeau.png");}
+		.m0 	{background-image: url("course-style/man3025/00-start.png");}
+		.m1 	{background-image: url("course-style/man3025/01-manager.png");}
+		.m2 	{background-image: url("course-style/man3025/02-theory.png");}
+		.m3 	{background-image: url("course-style/man3025/03-global.png");}
+		.m4 	{background-image: url("course-style/man3025/04-foundation.png");}
+		.m5 	{background-image: url("course-style/man3025/05-strategic.png");}
+		.m6 	{background-image: url("course-style/man3025/06-decision.png");}
+		.m7 	{background-image: url("course-style/man3025/07-culture.png");}
+		.m8 	{background-image: url("course-style/man3025/08-change.png");}
+		.m9 	{background-image: url("course-style/man3025/09-managing.png");}
+		.m10 	{background-image: url("course-style/man3025/10-motivating.png");}
+		.m11 	{background-image: url("course-style/man3025/11-groups.png");}
+		.m12 	{background-image: url("course-style/man3025/12-leadership.png");}
+		.m13 	{background-image: url("course-style/man3025/13-interpersonal.png");}
+		.m14 	{background-image: url("course-style/man3025/14-control.png");}
+		.m15 	{background-image: url("course-style/man3025/15-special.png");}
 	}		
 } // end .context-course_...		
