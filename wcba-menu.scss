@@ -1,21 +1,9 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	/*WCBA*/ &280374, &255694,
-	/*IMBA*/ &280388, &313314 {
-		.prof {	
-			background-image: url("course-style/net1000/century.png")}
-		.m1 {
-			background-image: url("course-style/net1000/01-laptop.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/net1000/02-canvas.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/net1000/03-tac.png"); 
-			@include grow-style;}
+	/*IMBA*/ &280388, &313314, &315315 {
+		.prof 	{background-image: url("course-style/net1000/century.png")}
+		.m1 	{background-image: url("course-style/net1000/01-laptop.png");}
+		.m2 	{background-image: url("course-style/net1000/02-canvas.png");}
+		.m3 	{background-image: url("course-style/net1000/03-tac.png");}
 	}		
 } //end .context-course_...		
