@@ -1,8 +1,3 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	&219092,
 	&313525 {
@@ -10,25 +5,23 @@
 			background-image: url("course-style/eco2013/knight.jpg");}
 		.m0 {
 			background-image: url("course-style/eco2013/00-start.png"); 
-			@include grow-style;}
+			}
 		.m1 {
 			background-image: url("course-style/eco2013/01-micro.png"); 
-			@include grow-style;}
+			}
 		.m2 {
 			background-image: url("course-style/eco2013/02-firm.png"); 
-			@include grow-style;}
+			}
 		.m3 {
 			background-image: url("course-style/eco2013/03-understanding.png"); 
-			@include grow-style;}
+			}
 		.m4 {
 			background-image: url("course-style/eco2013/04-identifying.png"); 
-			@include grow-style;}
+			}
 		.m5 {
 			background-image: url("course-style/eco2013/05-government.png"); 
-			@include grow-style;}
+			}
 		.m6 {
-			background-image: url("course-style/eco2013/06-international.png"); 
-			@include grow-style;
-		}
+			background-image: url("course-style/eco2013/06-international.png"); }
 	}	
 } // end .context-course_...		
