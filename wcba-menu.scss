@@ -1,8 +1,3 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	/*FALL*/ 	&219094,
 	/*SPRING*/	&313486 {
@@ -10,25 +5,25 @@
 			background-image: url("course-style/ent3003/rossi.png");}
 		.m0 {
 			background-image: url("course-style/ent3003/00-start.png"); 
-			@include grow-style;}
+			}
 		.m1 {
 			background-image: url("course-style/ent3003/01-apple.png"); 
-			@include grow-style;}
+			}
 		.m2 {
 			background-image: url("course-style/ent3003/02-groove.png"); 
-			@include grow-style;}
+			}
 		.m3 {
 			background-image: url("course-style/ent3003/03-ns4l.png"); 
-			@include grow-style;}
+			}
 		.m4 {
 			background-image: url("course-style/ent3003/12-student.png"); 
-			@include grow-style;}
+			}
 		.m5 {
 			background-image: url("course-style/ent3003/05-sbucks.png"); 
-			@include grow-style;}
+			}
 		.m6 {
 			background-image: url("course-style/ent3003/06-disney.png"); 
-			@include grow-style;
+			
 		}
 	}
 } // end .context-course_...		
