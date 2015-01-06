@@ -1,52 +1,19 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	/*S14*/ &224395, 
 	/*F15*/ &313001 {	
-		.prof {	
-			background-image: url("course-style/fin3403/tapley.png");}
-		.m0 {
-			background-image: url("course-style/fin3403/00-start.png"); 
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/fin3403/01-tvm.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/fin3403/02-interest.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/fin3403/03-bond.png"); 
-			@include grow-style;}
-		.m4 {
-			background-image: url("course-style/fin3403/04-risk.png"); 
-			@include grow-style;}
-		.m5 {
-			background-image: url("course-style/fin3403/05-stock.png"); 
-			@include grow-style;}
-		.m6 {
-			background-image: url("course-style/fin3403/06-cost.png"); 
-			@include grow-style;}
-		.m7 {
-			background-image: url("course-style/fin3403/07-statements.png");
-			@include grow-style;}
-		.m8 {
-			background-image: url("course-style/fin3403/08-planning.png");
-			@include grow-style;}
-		.m9 {
-			background-image: url("course-style/fin3403/09-capital.png");
-			@include grow-style;}
-		.m10 {
-			background-image: url("course-style/fin3403/10-policy.png");
-			@include grow-style;}
-		.m11 {
-			background-image: url("course-style/fin3403/11-resources.png");
-			@include grow-style;}
-		.m12 {
-			background-image: url("course-style/fin3403/module.png");
-			@include grow-style;
-		}
+		.prof 	{ background-image: url("course-style/fin3403/tapley.png"); }
+		.m0 	{ background-image: url("course-style/fin3403/00-start.png"); }
+		.m1 	{ background-image: url("course-style/fin3403/01-tvm.png"); }
+		.m2 	{ background-image: url("course-style/fin3403/02-interest.png"); }
+		.m3 	{ background-image: url("course-style/fin3403/03-bond.png"); }
+		.m4 	{ background-image: url("course-style/fin3403/04-risk.png"); }
+		.m5 	{ background-image: url("course-style/fin3403/05-stock.png"); }
+		.m6 	{ background-image: url("course-style/fin3403/06-cost.png"); }
+		.m7 	{ background-image: url("course-style/fin3403/07-statements.png"); }
+		.m8 	{ background-image: url("course-style/fin3403/08-planning.png"); }
+		.m9 	{ background-image: url("course-style/fin3403/09-capital.png"); }
+		.m10 	{ background-image: url("course-style/fin3403/10-policy.png"); }
+		.m11 	{ background-image: url("course-style/fin3403/11-resources.png"); }
+		.m12 	{ background-image: url("course-style/fin3403/module.png"); }
 	}
 } // end .context-course_...		
