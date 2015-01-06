@@ -1,26 +1,10 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	/*S15*/ &224392 {	
-		.prof {	
-			background-image: url("course-style/bul4310/emerson.png");}
-		.m0 {
-			background-image: url("course-style/bul4310/00-start.png"); 
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/bul4310/01-section1.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/bul4310/02-section2.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/bul4310/03-section3.png"); 
-			@include grow-style;}
-		.m4 {
-			background-image: url("course-style/bul4310/04-sample.png"); 
-			@include grow-style;}
+		.prof 	{ background-image: url("course-style/bul4310/emerson.png"); }
+		.m0 	{ background-image: url("course-style/bul4310/00-start.png"); }
+		.m1 	{ background-image: url("course-style/bul4310/01-section1.png"); }
+		.m2 	{ background-image: url("course-style/bul4310/02-section2.png"); }
+		.m3 	{ background-image: url("course-style/bul4310/03-section3.png"); }
+		.m4 	{ background-image: url("course-style/bul4310/04-sample.png"); }
 	}
 } //end .context-course_...
