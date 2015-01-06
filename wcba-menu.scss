@@ -1,47 +1,17 @@
-@mixin grow-style{
-	background-size: 100px 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	/*C14*/ &211670 {	
-		.prof {	
-			background-image: url("course-style/mar3231/trobaugh.jpg");}
-		.m0 {
-			background-image: url("course-style/mar3231/00-start.png"); 
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/mar3231/01-victorias.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/mar3231/02-home.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/mar3231/03-cwonder.png"); 
-			@include grow-style;}
-		.m4 {
-			background-image: url("course-style/mar3231/04-jcp.png"); 
-			@include grow-style;}
-		.m5 {
-			background-image: url("course-style/mar3231/05-lily.png"); 
-			@include grow-style;}
-		.m6 {
-			background-image: url("course-style/mar3231/06-toys.png"); 
-			@include grow-style;}
-		.m7 {
-			background-image: url("course-style/mar3231/07-uniqlo.png");
-			@include grow-style;}
-		.m8 {
-			background-image: url("course-style/mar3231/08-walgreens.png");
-			@include grow-style;}
-		.m9 {
-			background-image: url("course-style/mar3231/09-whbm.png");
-			@include grow-style;}
-		.m10 {
-			background-image: url("course-style/mar3231/10-office.png");
-			@include grow-style;}
-		.m11 {
-			background-image: url("course-style/mar3231/11-firestone.png");
-			@include grow-style;}
+		.prof 	{background-image: url("course-style/mar3231/trobaugh.jpg");}
+		.m0 	{background-image: url("course-style/mar3231/00-start.png");}
+		.m1 	{background-image: url("course-style/mar3231/01-victorias.png"); }
+		.m2 	{background-image: url("course-style/mar3231/02-home.png"); }
+		.m3 	{background-image: url("course-style/mar3231/03-cwonder.png"); }
+		.m4 	{background-image: url("course-style/mar3231/04-jcp.png"); }
+		.m5 	{background-image: url("course-style/mar3231/05-lily.png"); }
+		.m6 	{background-image: url("course-style/mar3231/06-toys.png"); }
+		.m7 	{background-image: url("course-style/mar3231/07-uniqlo.png");}
+		.m8 	{background-image: url("course-style/mar3231/08-walgreens.png");}
+		.m9 	{background-image: url("course-style/mar3231/09-whbm.png");}
+		.m10 	{background-image: url("course-style/mar3231/10-office.png");}
+		.m11 	{background-image: url("course-style/mar3231/11-firestone.png");}
 	}
 } // end .context-course_...
