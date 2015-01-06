@@ -1,8 +1,3 @@
-@mixin grow-style{
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	/*F14*/ &217960,
 	/*S15*/ &313000 {
@@ -10,25 +5,25 @@
 			background-image: url("course-style/eco2023/rush.jpg");}
 		.m0 {
 			background-image: url("course-style/eco2023/00-start.png"); 
-			@include grow-style;}
+			}
 		.m1 {
 			background-image: url("course-style/eco2023/01-intro.png"); 
-			@include grow-style;}
+			}
 		.m2 {
 			background-image: url("course-style/eco2023/02-supply.png"); 
-			@include grow-style;}
+			}
 		.m3 {
 			background-image: url("course-style/eco2023/03-behavior.png"); 
-			@include grow-style;}
+			}
 		.m4 {
 			background-image: url("course-style/eco2023/04-firm.png"); 
-			@include grow-style;}
+			}
 		.m5 {
 			background-image: url("course-style/eco2023/05-market.png"); 
-			@include grow-style;}
+			}
 		.m6 {
 			background-image: url("course-style/eco2023/06-dist.png"); 
-			@include grow-style;}
+			}
 		#wiki_page_show .nav li.research a {
 			background: #42BD66;
 			color: white;
