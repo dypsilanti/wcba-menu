@@ -1,9 +1,10 @@
-/*Lutz*/ 		.context-course_219097 .prof { background-image: url("course-style/mar3023/lutz.png");}
+/*Lutz*/ 		.context-course_316443 .prof { background-image: url("course-style/mar3023/lutz.png");}
 /*Dipasquale*/	.context-course_313266 .prof { background-image: url("course-style/mar3023/dipasquale.png");}
 	
 .context-course_ {
 	/*F14*/ &219097,
-	/*S15*/ &313266 {
+	/*S15*/ &313266,
+	/*C15*/	&316443 {
 		.m0 	{background-image: url("course-style/mar3023/00-start.png");}
 		.m1 	{background-image: url("course-style/mar3023/01-pg.png");}
 		.m2 	{background-image: url("course-style/mar3023/02-lighthouse.png");}
