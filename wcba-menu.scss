@@ -1,18 +1,19 @@
 .context-course_{
 	/*C14*/ &211670,
-	/*C15*/	&316424 {	
+	/*C15*/	&316424 {
+		#wiki_page_show .button {background-size: inherit;}	
 		.prof 	{background-image: url("course-style/mar3231/trobaugh.jpg");}
-		.m0 	{background-image: url("course-style/mar3231/00-start.png");}
-		.m1 	{background-image: url("course-style/mar3231/01-world-100.png"); }
-		.m2 	{background-image: url("course-style/mar3231/02-types-100.png"); }
-		.m3 	{background-image: url("course-style/mar3231/03-multichannel-100.png"); }
-		.m4 	{background-image: url("course-style/mar3231/04-customer-100.png"); }
-		.m5 	{background-image: url("course-style/mar3231/05-market-100.png"); }
-		.m6 	{background-image: url("course-style/mar3231/06-locations-100.png"); }
-		.m7 	{background-image: url("course-style/mar3231/07-locations2-100.png");}
-		.m8 	{background-image: url("course-style/mar3231/08-supply-100.png");}
-		.m9 	{background-image: url("course-style/mar3231/09-merchandise-100.png");}
-		.m10 	{background-image: url("course-style/mar3231/10-technology-100.png");}
-		.m11 	{background-image: url("course-style/mar3231/11-visual-100.png");}
+		.m0 	{background-image: url("course-style/mar3231/new/00-start.png");}
+		.m1 	{background-image: url("course-style/mar3231/new/01-world.png"); }
+		.m2 	{background-image: url("course-style/mar3231/new/02-types.png"); }
+		.m3 	{background-image: url("course-style/mar3231/new/03-multichannel.png"); }
+		.m4 	{background-image: url("course-style/mar3231/new/04-customer.png"); }
+		.m5 	{background-image: url("course-style/mar3231/new/05-market.png"); }
+		.m6 	{background-image: url("course-style/mar3231/new/06-locations.png"); }
+		.m7 	{background-image: url("course-style/mar3231/new/07-locations2.png");}
+		.m8 	{background-image: url("course-style/mar3231/new/08-supply.png");}
+		.m9 	{background-image: url("course-style/mar3231/new/09-merchandise.png");}
+		.m10 	{background-image: url("course-style/mar3231/new/10-technology.png");}
+		.m11 	{background-image: url("course-style/mar3231/new/11-visual.png");}
 	}
 } // end .context-course_...
