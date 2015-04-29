@@ -20,6 +20,14 @@
 		background-image: url("course-style/student-guide/handbook.png"); 
 		@include grow-style;}
 		
+	.goReact {
+		background-image: url("course-style/student-guide/goreact.png"); 
+		@include grow-style;}
+		
+	.pollEverywhere {
+		background-image: url("course-style/student-guide/poll.png"); 
+		@include grow-style;}
+		
 	// overrides the h2.course-title style from common-layout
 	#wiki_page_show h2.course-title {
 		 visibility: visible;
