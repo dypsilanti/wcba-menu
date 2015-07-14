@@ -1,8 +1,8 @@
 .context-course_{
-	/*F14*/ &148550,
-	/*F14*/ &295296,
-	/*S15*/ &313333,
-	/*S15*/ &313334{
+	// F14
+	&148550, &295296,
+	// S15 
+	&313333, &313334 {
 		.prof 	{ background-image: url("course-style/ism3013/mukherjee.png");}
 		.m0 	{ background-image: url("course-style/ism3013/00-start.png"); }
 		.m1 	{ background-image: url("course-style/ism3013/01.png"); }
@@ -27,5 +27,18 @@
 		.m20 	{ background-image: url("course-style/ism3013/excel.png");}
 		.m21 	{ background-image: url("course-style/ism3013/access.png");}
 		.m22 	{ background-image: url("course-style/ism3013/faq.png");}
+	}
+} // end .context-course_...
+
+// Image border exception
+.context-course_{
+	// ISM3013 F15
+	&318475, &318476,
+	// ISM4113 F15
+	&319705,
+	// ISM4210 F15
+	&319706 {
+		#wiki_page_show img { border: none;}		
 	}	
-} // end .context-course_...		
+}
+	
